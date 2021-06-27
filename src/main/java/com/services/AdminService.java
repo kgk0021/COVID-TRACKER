@@ -1,6 +1,6 @@
 package com.services;
 
-import com.Dtos.CovidResult;
+import com.dtos.CovidResult;
 import com.models.User;
 import com.models.Zone;
 import com.repos.UserRepo;

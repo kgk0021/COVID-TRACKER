@@ -1,6 +1,6 @@
 package com.controllers;
 
-import com.Dtos.SelfAssessment;
+import com.dtos.SelfAssessment;
 import com.models.User;
 import com.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;

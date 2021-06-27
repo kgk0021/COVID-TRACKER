@@ -1,6 +1,6 @@
 package com.services;
 
-import com.Dtos.SelfAssessment;
+import com.dtos.SelfAssessment;
 import com.models.User;
 import com.models.Zone;
 import com.repos.UserRepo;

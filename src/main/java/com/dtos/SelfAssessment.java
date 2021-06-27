@@ -1,6 +1,5 @@
-package com.Dtos;
+package com.dtos;
 
-import javax.persistence.*;
 import java.util.ArrayList;
 
 

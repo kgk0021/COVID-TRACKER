@@ -1,4 +1,4 @@
-package com.Dtos;
+package com.dtos;
 
 
 public class CovidResult {

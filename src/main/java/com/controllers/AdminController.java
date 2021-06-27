@@ -1,6 +1,6 @@
 package com.controllers;
 
-import com.Dtos.CovidResult;
+import com.dtos.CovidResult;
 import com.models.User;
 import com.services.AdminService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/v1")
-public class AdminControllers {
+public class AdminController {
     @Autowired
     AdminService adminService;
 
