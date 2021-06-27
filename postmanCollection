@@ -1,0 +1,86 @@
+{
+    "info": {
+        "_postman_id": "3c4dcb78-a481-4a3c-9d44-2ee3343e1c07",
+        "name": "Game",
+        "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "http://localhost:8080/api/v1/admins/1/result",
+            "id": "2b27e5cd-448e-4edc-9284-ff1d39ee7d57",
+            "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n    \"userId\": \"1\",\n    \"adminId\": \"2\",\n    \"result\": \"positive\"\n}",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    }
+                },
+                "url": "http://localhost:8080/api/v1/admins/1/result",
+                "description": "vfvfdszvf"
+            },
+            "response": []
+        },
+        {
+            "name": "http://localhost:8080/api/v1/users/1",
+            "id": "b8f9c14d-572c-43f6-959a-47371696c98c",
+            "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n    \"userId\": \"1\",\n    \"symptoms\": [\n        \"fever\",\n        \"cold\",\n        \"cough\"\n    ],\n    \"travelHistory\": true,\n    \"contactWithCovidPatient\": true\n}",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    }
+                },
+                "url": "http://localhost:8080/api/v1/users/1"
+            },
+            "response": []
+        },
+        {
+            "name": "http://localhost:8080/api/v1/admins",
+            "id": "6124eafc-9371-4b66-a2be-902c149c8fcd",
+            "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n    \"name\": \"A\",\n    \"phoneNumber\": \"9999999999\",\n    \"pinCode\": \"111111\"\n}",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    }
+                },
+                "url": "http://localhost:8080/api/v1/admins"
+            },
+            "response": []
+        },
+        {
+            "name": "http://localhost:8080/api/v1/users",
+            "id": "b64e7085-4f18-4382-8045-80213facbea4",
+            "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n    \"name\": \"A\",\n    \"phoneNumber\": \"9999999999\",\n    \"pinCode\": \"111111\"\n}",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    }
+                },
+                "url": "http://localhost:8080/api/v1/users"
+            },
+            "response": []
+        }
+    ]
+}
